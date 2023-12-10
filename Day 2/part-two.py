@@ -36,7 +36,7 @@ for line in input:
     all_games[game_id] = all_sets
 
 sum = 0
-# Determine which games would've been possible with 12 red, 13 green, 14 blue
+# Find the least number of each color you'd need to play each game
 for id in all_games:
     sets = all_games[id]
     valid_game = True
